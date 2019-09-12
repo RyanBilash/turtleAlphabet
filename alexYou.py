@@ -3,7 +3,6 @@
 # Space between letters 10pix
 # Space between words
 
-import math
 import turtle
 
 def turtleK():
@@ -177,14 +176,69 @@ def turtleT():
     turtle.forward(25)
     turtle.pendown()
 
-turtleM()
-turtleQ()
+def turtleU():
+    turtle.left(90)
+    turtle.forward(50)
+    turtle.backward(50)
+    turtle.right(90)
+    turtle.forward(30)
+    turtle.left(90)
+    turtle.forward(50)
+    turtle.backward(50)
+    turtle.right(90)
+    turtle.penup()
+    turtle.forward(10)
+    turtle.pendown()
+
+def turtleV():
+    turtle.left(90)
+    turtle.penup()
+    turtle.forward(50)
+    turtle.right(163.3)
+    turtle.pendown()
+    turtle.forward(52.2)
+    turtle.left(146.6)
+    turtle.forward(52.2)
+    turtle.right(163.3)
+    turtle.penup()
+    turtle.forward(50)
+    turtle.left(90)
+    turtle.forward(10)
+    turtle.pendown()
+
+def turtleW():
+    turtle.left(90)
+    turtle.forward(50)
+    turtle.left(180)
+    turtle.forward(50)
+    turtle.left(163.3)
+    turtle.forward(52.2)
+    turtle.right(146.6)
+    turtle.forward(52.2)
+    turtle.left(163.3)
+    turtle.forward(50)
+    turtle.penup()
+    turtle.backward(50)
+    turtle.right(90)
+    turtle.forward(10)
+    turtle.pendown()
+
+def turtleX():
+    turtle.left(59)
+    turtle.forward(58.3)
+    turtle.backward(29.15)
+    turtle.left(62)
+    turtle.forward(29.15)
+    turtle.backward(58.3)
+    turtle.right(121)
+    turtle.penup()
+    turtle.forward(10)
+    turtle.pendown()
+
+turtleU()
+turtleW()
+turtleX()
+turtleV()
 turtleT()
-turtleO()
-turtleR()
-turtleS()
-turtleN()
-turtleP()
-turtleK()
 
 turtle.mainloop()
