@@ -19,7 +19,7 @@ Work Delegation
     
     Ryan - First ten letters of alpha
     
-    Alex - Second ten letters
+    Alex - Second ten letters - Additionally completed up to letter X
     
     Sean - [0,9]
     
