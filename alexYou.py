@@ -1,8 +1,3 @@
-# height - 50
-# Width - 30
-# Space between letters 10pix
-# Space between words
-
 import turtle
 
 def turtleK():
@@ -234,11 +229,5 @@ def turtleX():
     turtle.penup()
     turtle.forward(10)
     turtle.pendown()
-
-turtleU()
-turtleW()
-turtleX()
-turtleV()
-turtleT()
 
 turtle.mainloop()
