@@ -5,6 +5,9 @@ __pycache__/
 
 # C extensions
 *.so
+#pls
+*.xml
+
 
 # Distribution / packaging
 .Python
@@ -102,3 +105,4 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+/.idea/
