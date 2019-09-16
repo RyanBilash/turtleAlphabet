@@ -230,4 +230,6 @@ def turtleX():
     turtle.forward(10)
     turtle.pendown()
 
-turtle.mainloop()
+if __name__ == '__main__':
+    1
+    #Section for code you want run only if this is the main process

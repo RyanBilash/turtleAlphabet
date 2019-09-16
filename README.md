@@ -23,6 +23,5 @@ Work Delegation
     
     Sean - [0,9]
     
-    Joey - Emojis, space, and last 6 letters of alphabet
+    Joey - Emojis, space, and last 2 letters of alphabet, API and example.py
 
-API and example file to be worked on after characters finished
