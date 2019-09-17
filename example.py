@@ -1,4 +1,4 @@
 from main import turtlePRINT, turtleSETUP
 import joeyL,alexYou,ryanBilash
 turtleSETUP()
-turtlePRINT("Hi")
+turtlePRINT("bye")
