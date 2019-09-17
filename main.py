@@ -58,14 +58,16 @@ def turtlePRINT(inputStr):
         joeyL.turtleSELFBOX() if CHAR == "#" else 1
         joeyL.turtleSMILE() if CHAR == "!" else 1
         joeyL.turtleFROWN() if CHAR == "@" else 1
+        #TODO Add Seans's numbers and file
 
 
 
 def turtleSETUP(speed = 100):
+    assert isinstance(speed,int)
     turtle.setup(1280, 720, 0, 0)
     turtle.reset()
     turtle.penup()
-    turtle.speed(100)
+    turtle.speed(speed)
     turtle.setpos(-630, 300) #Start in upper left, 10px by 10px margin
     turtle.pendown()
 
