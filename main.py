@@ -7,7 +7,7 @@ turtlePRINT function and turtleSETUP()
 '''
 
 import turtle
-import joeyL,ryanBilash,alexYou
+import joeyL,ryanBilash,alexYou,shaunG
 import sys
 
 
@@ -59,6 +59,17 @@ def turtlePRINT(inputStr):
         joeyL.turtleSMILE() if CHAR == "!" else 1
         joeyL.turtleFROWN() if CHAR == "@" else 1
         #TODO Add Seans's numbers and file
+
+        shaunG.turtle0() if CHAR == "0" else 1
+        shaunG.turtle1() if CHAR == "1" else 1
+        shaunG.turtle2() if CHAR == "2" else 1
+        shaunG.turtle3() if CHAR == "3" else 1
+        shaunG.turtle4() if CHAR == "4" else 1
+        shaunG.turtle5() if CHAR == "5" else 1
+        shaunG.turtle6() if CHAR == "6" else 1
+        shaunG.turtle7() if CHAR == "7" else 1
+        shaunG.turtle8() if CHAR == "8" else 1
+        shaunG.turtle9() if CHAR == "9" else 1
 
 
 

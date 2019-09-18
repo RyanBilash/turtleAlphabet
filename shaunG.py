@@ -1,13 +1,12 @@
 import turtle
-turtle.screensize(canvwidth=None, canvheight=None, bg=None)
 
 def space():
     turtle.penup()
     turtle.setheading(0)
-    turtle.forward(50)
+    turtle.forward(10)
     turtle.pendown()
 
-def make_0():
+def turtle0():
     turtle.forward(30)
     turtle.left(90)
     turtle.forward(50)
@@ -15,14 +14,18 @@ def make_0():
     turtle.forward(30)
     turtle.left(90)
     turtle.forward(50)
+    turtle.left(90)
+    turtle.forward(30)
+    space()
 
-def make_1():
+def turtle1():
     turtle.left(90)
     turtle.forward(50)
     turtle.left(180)
     turtle.forward(50)
+    space()
 
-def make_2():
+def turtle2():
     turtle.forward(30)
     turtle.left(180)
     turtle.forward(30)
@@ -44,8 +47,9 @@ def make_2():
     turtle.forward(25)
     turtle.left(90)
     turtle.forward(30)
+    space()
 
-def make_3():
+def turtle3():
     turtle.forward(30)
     turtle.left(90)
     turtle.forward(50)
@@ -62,8 +66,9 @@ def make_3():
     turtle.right(90)
     turtle.forward(25)
     turtle.left(180)
+    space()
 
-def make_4():
+def turtle4():
   turtle.penup()
   turtle.left(90)
   turtle.forward(50)
@@ -77,8 +82,9 @@ def make_4():
   turtle.left(180)
   turtle.forward(50)
   turtle.left(90)
+  space()
 
-def make_5():
+def turtle5():
   turtle.forward(30)
   turtle.left(90)
   turtle.forward(25)
@@ -97,8 +103,9 @@ def make_5():
   turtle.right(90)
   turtle.forward(25)
   turtle.left(90)
+  space()
 
-def make_6():
+def turtle6():
   turtle.forward(30)
   turtle.left(90)
   turtle.forward(25)
@@ -114,8 +121,9 @@ def make_6():
   turtle.forward(50)
   turtle.left(90)
   turtle.forward(30)
+  space()
 
-def make_7():
+def turtle7():
   turtle.penup()
   turtle.left(90)
   turtle.forward(50)
@@ -125,8 +133,9 @@ def make_7():
   turtle.right(90)
   turtle.forward(50)
   turtle.left(90)
+  space()
 
-def make_8():
+def turtle8():
   turtle.forward(30)
   turtle.left(90)
   turtle.forward(25)
@@ -144,8 +153,9 @@ def make_8():
   turtle.forward(25)
   turtle.left(90)
   turtle.forward(30)
+  space()
 
-def make_9():
+def turtle9():
   turtle.forward(30)
   turtle.left(90)
   turtle.forward(25)
@@ -158,26 +168,4 @@ def make_9():
   turtle.right(90)
   turtle.forward(50)
   turtle.left(90)
-
-make_0()
-space()
-make_1()
-space()
-make_2()
-space()
-make_3()
-space()
-make_4()
-space()
-make_5()
-space()
-make_6()
-space()
-make_7()
-space()
-make_8()
-space()
-make_9()
-space()
-
-turtle.mainloop()
+  space()
