@@ -7,7 +7,7 @@ turtlePRINT function and turtleSETUP()
 '''
 
 import turtle
-import joeyL,ryanBilash,alexYou,shaunG
+from charset import joeyL, alexYou, shaunG, ryanBilash
 import sys
 
 
