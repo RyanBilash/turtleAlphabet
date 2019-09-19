@@ -58,7 +58,6 @@ def turtlePRINT(inputStr):
         joeyL.turtleSELFBOX() if CHAR == "#" else 1
         joeyL.turtleSMILE() if CHAR == "!" else 1
         joeyL.turtleFROWN() if CHAR == "@" else 1
-        #TODO Add Seans's numbers and file
 
         shaunG.turtle0() if CHAR == "0" else 1
         shaunG.turtle1() if CHAR == "1" else 1
